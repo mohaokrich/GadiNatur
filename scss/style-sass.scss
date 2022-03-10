@@ -1,0 +1,50 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&display=swap');
+
+//PALETA DE COLORES
+$color-principal: #5d5d58;
+$menu-backgroun-color: rgb(160, 157, 88) ;
+$menu-backgroun-color-hover: rgb( 214, 214, 212);
+$menu-color-hover: rgb( 52, 36, 21);
+
+
+$max-height: 400px;
+$max-width: 100%;
+
+body{
+    background-color: $color-principal;
+}
+
+.container{
+    background: white;
+}
+
+header{
+    img{
+        max-width: 100%;
+        height: auto;
+        width: auto\9;
+    }
+}
+nav{
+    width: $max-width;
+    ul {
+        display: flex;
+        justify-content:space-around;
+        list-style-type: none;  
+      }
+      
+}
+nav ul li a {
+    padding: 0.25em 1em;
+    text-decoration: none; /* no underline */
+    background-color: $menu-backgroun-color; /* pale bluish white */
+    color: wheat; /* dark blue */
+    border: 2px solid black;
+}
+  nav ul li a:hover, nav ul li a:focus {
+    color: $menu-color-hover;
+    background-color: $menu-backgroun-color-hover;
+    font-weight: bold;
+    text-decoration:none;
+}
