@@ -3,9 +3,9 @@
 
 //PALETA DE COLORES
 $color-principal: #5d5d58;
-$color-white: rgb(255, 255, 255);
-$color-black: rgb(0, 0, 0);
-$subtitle-color: lightseagreen;
+$color-white: #ffffff;
+$color-black: hsl(0, 0%, 0%);
+$subtitle-color: #20b2aa;
 
 body{
     background-color: $color-principal;
@@ -137,3 +137,13 @@ footer{
         }
     }
 }
+@media (max-width: 600px) {
+    .informacion {
+      display: flex !important;
+      flex-direction: column !important;
+      justify-content: center !important;
+    }
+    .proyectos{
+
+    }
+  }

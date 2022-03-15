@@ -7,7 +7,7 @@ body {
 }
 
 .container {
-  background: white;
+  background: #ffffff;
 }
 
 header {
@@ -25,7 +25,7 @@ header img {
 }
 header h1, header h2 {
   font-weight: bold;
-  color: white;
+  color: #ffffff;
   text-shadow: 0 0 5px black;
 }
 
@@ -62,7 +62,7 @@ nav .dropdown-menu a {
   text-align: center;
 }
 .informacion h5 {
-  color: lightseagreen;
+  color: #20b2aa;
 }
 .informacion img {
   border-radius: 1em;
@@ -107,7 +107,7 @@ footer .RRSS {
 footer .RRSS h5 {
   margin-left: 25%;
   font-weight: bold;
-  color: white;
+  color: #ffffff;
   text-shadow: 0 0 5px black;
 }
 footer .contacto {
@@ -120,11 +120,19 @@ footer .contacto {
 footer .contacto h5 {
   text-align: center;
   font-weight: bold;
-  color: white;
+  color: #ffffff;
   text-shadow: 0 0 5px black;
 }
 footer .contacto button {
   padding: 0%;
+}
+
+@media (max-width: 600px) {
+  .informacion {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
